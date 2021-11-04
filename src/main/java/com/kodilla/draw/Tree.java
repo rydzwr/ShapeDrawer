@@ -38,7 +38,7 @@ public class Tree implements Drawable
     {
         for (int i = 0; i < spaces; i++)
         {
-            System.out.println("");
+            System.out.print(' ');
         }
     }
 
@@ -46,7 +46,7 @@ public class Tree implements Drawable
     {
         for (int i = 0; i < stars; i++)
         {
-            System.out.println("*");
+            System.out.print('*');
         }
     }
 }

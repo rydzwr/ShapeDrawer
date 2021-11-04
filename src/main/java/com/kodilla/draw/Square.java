@@ -26,7 +26,7 @@ public class Square implements Drawable
         {
             for (int j = 0; j < a; j++)
             {
-                System.out.println("* ");
+                System.out.print("* ");
             }
             System.out.println();
         }

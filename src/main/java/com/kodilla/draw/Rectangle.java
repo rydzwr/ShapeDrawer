@@ -6,7 +6,7 @@ public class Rectangle implements Drawable
     private int a;
     private int b;
 
-    private Rectangle(int a, int b)
+    public Rectangle(int a, int b)
     {
         this.a = a;
         this.b = b;
@@ -39,7 +39,7 @@ public class Rectangle implements Drawable
         {
             for (int j = 0; j < a; j++)
             {
-                System.out.println("* ");
+                System.out.print("* ");
             }
             System.out.println();
         }
